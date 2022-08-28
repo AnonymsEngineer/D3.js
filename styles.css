@@ -8,12 +8,11 @@
 }
 
 :root {
-  --bg-color: rgb(44, 44, 44);
-  --bg-color-2: rgb(65, 61, 61);
+  --bg-color: rgb(0,0,0);
+  --bg-color-2: rgba(65, 61, 61, 0.5);
   --text-color: rgb(240, 240, 240);
-  --text-color-2: rgb(212, 186, 186);
-  --bar-color: #0a7e8d;
-  --bar-color-hover: #9ee3ec;
+  --text-color-2: #9b6dff;
+  --bar-color: #b99aff;
 }
 
 body {
@@ -52,7 +51,7 @@ body {
 }
 
 .bar:hover {
-  fill: var(--bar-color-hover);
+  fill: var(--text-color-2);
 }
 
 .bar-text {
